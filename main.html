@@ -1,41 +1,51 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Testimonial Section</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <title>Testimonial Section Design</title>
+  <style>
+    body {
+      background-color: #f5f5f5;
+      font-family: Arial, sans-serif;
+    }
+    .testimonial-container {
+      padding: 40px;
+      max-width: 800px;
+      margin: auto;
+      background-color: #f5f5f5;
+    }
+    .testimonial {
+      background-color: #fff;
+      border: 1px solid #ccc;
+      padding: 16px 24px;
+      margin-bottom: 14px;
+    }
+    .testimonial p {
+      margin: 0;
+    }
+    .author {
+      text-align: right;
+      font-style: italic;
+      margin-top: 8px;
+    }
+    .section-title {
+      font-size: 1.4em;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+  </style>
 </head>
 <body>
-
-  <main class="testimonial-wrapper" aria-labelledby="testimonials-heading">
-    <h2 id="testimonials-heading" class="testimonial-header">Testimonials</h2>
-
-    <div class="testimonials">
-
-      <article class="testimonial" aria-label="Testimonial from John Doe">
-        <p class="text">
-          This product is amazing! I highly recommend it to anyone in need of a solution like this.
-        </p>
-        <p class="author">— John Doe</p>
-      </article>
-
-      <article class="testimonial" aria-label="Testimonial from Jane Smith">
-        <p class="text">
-          I have been using this for a few weeks now and it has completely transformed my workflow.
-        </p>
-        <p class="author">— Jane Smith</p>
-      </article>
-
-      <article class="testimonial" aria-label="Testimonial from Sarah Smith">
-        <p class="text">
-          Nullam facilisi. Integer sit amet arcu vitae velit tincidunt posuere. This improved our team's delivery speed.
-        </p>
-        <p class="author">— Sarah Smith</p>
-      </article>
-
+  <div class="testimonial-container">
+    <div class="section-title">Testimonials</div>
+    <div class="testimonial">
+      <p>This product is amazing! I highly recommend it to anyone in need of a solution like this.</p>
+      <p class="author">– John Doe</p>
     </div>
-  </main>
-
+    <div class="testimonial">
+      <p>I have been using this for a few weeks now and it has completely transformed my workflow.</p>
+      <p class="author">– Sarah Smith</p>
+    </div>
+  </div>
 </body>
 </html>
